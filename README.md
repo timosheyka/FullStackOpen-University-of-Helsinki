@@ -1,1 +1,1 @@
-FULLSTACK Open course by the University of Helsinki
+# FULLSTACK Open course by the University of Helsinki
