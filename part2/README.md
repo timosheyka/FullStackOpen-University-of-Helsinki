@@ -1,2 +1,2 @@
-# Solutions for part 1
+# Solutions for part 2
 ## Tasks compeleted - ```courseinfo(extended) ...```
