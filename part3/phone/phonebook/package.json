@@ -1,0 +1,29 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint",
+    "build:ui": "rm -rf dist && cd ../phonebook_frontend && npm run build && cp -r dist ../phonebook",
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tsimafei Lukashevich",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin-js": "^2.2.2",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
+    "nodemon": "^3.1.3"
+  }
+}
