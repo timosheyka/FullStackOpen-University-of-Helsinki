@@ -1,2 +1,2 @@
 # Solutions for part 4
-## Tasks compeleted - ```bloglist - B```
+## Tasks compeleted - ```bloglist```
